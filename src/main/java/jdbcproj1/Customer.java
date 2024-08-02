@@ -13,6 +13,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "customer")
 public class Customer {
+
+	int b = 60;
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cust_id")
