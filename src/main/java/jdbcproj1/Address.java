@@ -13,6 +13,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "address")
 public class Address implements Serializable{
+	private int ab = 10;
 	
 	private static final long serialVersionUID = 1L;
 
